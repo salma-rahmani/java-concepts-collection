@@ -12,7 +12,7 @@ public class QuestionEightSolver {
         String message1 = "Hello World";
         String message2 = "world";
         if (message1.toLowerCase().contains(message2)) {
-            System.out.println("Yes, 'world' is a substring of 'Hello World'.");
+            System.out.println("Yes, 'world' is a substring of 'hello word'.");
         } else {
             System.out.println("No, 'world' is not a substring.");
         }

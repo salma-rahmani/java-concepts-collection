@@ -13,10 +13,10 @@ public class QuestionSevenSolver {
         String lowerWord = word.toLowerCase();
         String reverse = new StringBuilder(lowerWord).reverse().toString();
         if (lowerWord.equals(reverse) ){
-            System.out.println("Yes same");
+            System.out.println("Yes It is a palindrome");
         }
         else {
-            System.out.println("Not same");
+            System.out.println("No");
         }
 
 
